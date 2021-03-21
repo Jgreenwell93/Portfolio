@@ -32,6 +32,12 @@ header h1{
     height: auto;
 }
 
+.contactlist{
+    display:flex;
+    justify-content: space-evenly;
+    list-style-type:none;
+}
+
 footer{
     display:flex;
     justify-content: center;
