@@ -30,11 +30,21 @@ header h1{
 
 .labels{
     font-size: 3vw;
+    display:flex;
+    flex:wrap;
 }
 
 .banner{
     max-width: 100%;
     height: auto;
+}
+
+.row1{
+
+}
+
+.row2{
+    list-style-type: none;
 }
 
 .contactlist{
