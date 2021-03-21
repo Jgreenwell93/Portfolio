@@ -1,6 +1,7 @@
 *{
     color:ghostwhite;
-    
+    font-family: Verdana, Arial, sans-serif;
+    font-weight: lighter;
 }
 
 header{
@@ -24,7 +25,11 @@ header h1{
 }
 
 .main{
-    background-color: rgb(119, 8, 223);
+    background-color: rgb(89, 40, 134);
+}
+
+.labels{
+    font-size: 3vw;
 }
 
 .banner{
