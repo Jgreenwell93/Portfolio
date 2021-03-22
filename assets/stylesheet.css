@@ -10,7 +10,9 @@ header{
 
 header h1{
     float:left;
-    margin-left: 1vw;;
+    margin-left: 1vw;
+    background-size: 2vh, 2vw;
+    background-color: rgb(89, 40, 134);
 }
 
 .navbar{
@@ -21,11 +23,22 @@ header h1{
 
 .navitem{
     margin:2vw;
+    text-decoration: underline;
   
+}
+
+.aboutme1{
+    display:inline;
 }
 
 .main{
     background-color: rgb(89, 40, 134);
+}
+
+.about{
+    float:right;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .labels{
@@ -39,6 +52,13 @@ header h1{
     height: auto;
 }
 
+.workbox{
+    display:flex;
+    display:block;
+    justify-content: center;
+    max-width: 60%;
+}
+
 .row1{
 display:flex;
 justify-content: center;
@@ -46,8 +66,10 @@ justify-content: center;
 }
 
 .row1photo{
-    max-width: 50vw;
+    max-width: 64vw;
     height:auto;
+    display: flex;
+    justify-content: center;
 }
 
 .row2{
