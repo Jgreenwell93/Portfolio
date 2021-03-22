@@ -2,6 +2,11 @@
     color:ghostwhite;
     font-family: Verdana, Arial, sans-serif;
     font-weight: lighter;
+    
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 header{
