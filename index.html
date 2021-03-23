@@ -15,20 +15,25 @@
 <body>
     <header>
         <H1>Joseph Greenwell</H1>
-        <ul class=navbar>
-            <li class="navitem"><a href=#aboutmeclick>About Me</a></li>
-            <li class="navitem"><a href=#workclick>Work</a></li>
-            <li class="navitem"><a href=#contactclick>Contact Me</a></li>
-        </ul>
+        <div>
+            <!-- list of navigation bar items with scroll click positioning -->
+            <ul class=navbar>
+                <li class="navitem"><a href=#aboutmeclick>About Me</a></li>
+                <li class="navitem"><a href=#workclick>Work</a></li>
+                <li class="navitem"><a href=#contactclick>Contact Me</a></li>
+            </ul>
+        </div>
     </header>
 
     <article class="main">
 
+        <!-- banner photo at top with text on image -->
         <figure class="banner">
            <img class="bannerphoto" src="Images/GearsBanner.jpg" alt="GearsBanner">
            <div class="bottom-right">[Cool Text Here]</div>
         </figure>
-    
+
+            <!-- about me area with a photo of self -->
         <section id="aboutmeclick" class="aboutme1">
             <h1 class="labels">About Me</h1>
             <img class="self-photo" src="Images/selfphotoplaceholder.jpg" alt"selfphotoplaceholder>
@@ -36,16 +41,19 @@
 
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis.</p>
         </section>
-    
+                  
+        <!-- work projects area -->
         <section id="workclick" class="main-element">
             <h1 class="labels">Work</h1>
             <div class="workbox">
+                <!-- first top row image -->
                 <div class="row1">
                     <a href="#">
                         <img class="row1photo" src="Images/placeholdergeneral.jpg" alt="placeholdergeneral">
                     </a>
                 </div>
 
+                <!-- 3 bottom row project images -->
                 <div class="row2">
                     <a href="#">
                         <img class="row2photos" src="./Images/placeholdergeneral.jpg" alt="placeholdergeneral">
@@ -64,8 +72,10 @@
             </div>
         </section>
     
+        <!-- contact me area -->
         <section id="contactclick" class="main-element">
             <h1 class="labels">Contact Me</h1>
+            <!-- list of forms of contact with hyperlinks -->
             <ul class="contactlist">
                 <li class="contact-items"><a href="#">713.xxx.xxxx</a></li>
                 <li class="contact-items"><a href="#">joeygreenwell@email.com</a></li>

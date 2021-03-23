@@ -1,3 +1,4 @@
+/* globally adjust font color, style, and weight */
 *{
     color:ghostwhite;
     font-family: Verdana, Arial, sans-serif;
@@ -5,14 +6,17 @@
     
 }
 
+/* adds in scroll behavior for click event scrolls in html */
 html{
     scroll-behavior: smooth;
 }
 
+/* header color */
 header{
     background-color: rgb(36, 25, 109);
 }
 
+/* header positioning and background color */
 header h1{
     float:left;
     margin-left: 1vw;
@@ -20,40 +24,49 @@ header h1{
     background-color: lightseagreen;
 }
 
+/* navigation bad position */
 .navbar{
     display:flex;
     justify-content: flex-end;
     list-style-type:none;
 }
 
+/* navigation item decoration */
 .navitem{
     margin:2vw;
     text-decoration: underline;
 }
 
+/* hover effect for navigation bar items */
 .navitem:hover{
     background-color: lightseagreen;
 }
 
+/* about me display? */
 .aboutme1{
     display:inline;
 }
 
+/* background color of main */
 .main{
     background-color: rgb(89, 40, 134);
 }
 
+/* banner position and text font color */
 .banner{
     position: relative;
     text-align: center;
     color: white;
 }
 
+/* banner sizing */
 .bannerphoto{
-    max-width: 100%;
-    height: auto;
+    height: 12em;
+    width: 100%;
+    object-fit: cover;
 }
 
+/* text on banner sizing, positioning, and font decorations */
 .bottom-right{
     position: absolute;
     bottom: 1vw;
@@ -62,18 +75,22 @@ header h1{
     font-size:3vw;
 }
 
+/* about me text positioning? */
 .about{
     float:right;
     display: flex;
     flex-wrap: wrap;
 }
 
+/* section labels and sizing? */
 .labels{
     font-size: 3vw;
     display:flex;
     flex:wrap;
+    border-right: lightseagreen 3px solid;
 }
 
+/* sizing of self photo */
 .self-photo{
     border-style: solid;
     border-radius: .5vw;
@@ -82,6 +99,7 @@ header h1{
     height:auto;
 }
 
+/* block of projects ive "worked on" positioning */
 .workbox{
     display:flex;
     display:block;
@@ -89,12 +107,14 @@ header h1{
     max-width: 60%;
 }
 
+/* top project */
 .row1{
 display:flex;
 justify-content: center;
 
 }
 
+/* top project photo effects and sizing */
 .row1photo{
     max-width: 64vw;
     height:auto;
@@ -105,20 +125,22 @@ justify-content: center;
     border-color: lightseagreen;
     filter:saturate(40%);
     transition-duration: .25s;
-    
 }
 
+/* top project photo hover effect */
 .row1photo:hover{
     filter:none;
     transition-duration: .25s;
 }
 
+/* bottom row of projects */
 .row2{
     list-style-type: none;
     display:flex;
     justify-content: center;
 }
 
+/* bottom row of projects photo effects and sizing */
 .row2photos{
     display: flex;
     flex-wrap: wrap;
@@ -132,21 +154,25 @@ justify-content: center;
     transition-duration: .25s;
 }
 
+/* bottom row of projects hover effect */
 .row2photos:hover{
     filter:none;
     transition-duration: .25s;
 }
 
+/* forms of contact positioning */
 .contactlist{
     display:flex;
     justify-content: space-evenly;
     list-style-type:none;
 }
 
+/* forms of contact hover effect */
 .contact-items:hover{
     background-color: lightseagreen;
 }
 
+/* footer positioning and decoration */
 footer{
     display:flex;
     justify-content: center;
