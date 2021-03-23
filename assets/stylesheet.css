@@ -29,7 +29,10 @@ header h1{
 .navitem{
     margin:2vw;
     text-decoration: underline;
-  
+}
+
+.navitem:hover{
+    background-color: lightseagreen;
 }
 
 .aboutme1{
@@ -38,6 +41,25 @@ header h1{
 
 .main{
     background-color: rgb(89, 40, 134);
+}
+
+.banner{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bannerphoto{
+    max-width: 100%;
+    height: auto;
+}
+
+.bottom-right{
+    position: absolute;
+    bottom: 1vw;
+    right: 2vw;
+    background-color: lightseagreen;
+    font-size:3vw;
 }
 
 .about{
@@ -52,24 +74,10 @@ header h1{
     flex:wrap;
 }
 
-.banner{
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
-.bottom-right{
-    position: absolute;
-    bottom: 1vw;
-    right: 2vw;
-    background-color: lightseagreen;
-    font-size:3vw;
-}
-
-
-.bannerphoto{
-    max-width: 100%;
-    height: auto;
+.self-photo{
+    border-style: solid;
+    border-radius: .5vw;
+    border-color: lightseagreen;
 }
 
 .workbox{
@@ -90,6 +98,9 @@ justify-content: center;
     height:auto;
     display: flex;
     justify-content: center;
+    border-style: solid;
+    border-radius: .5vw;
+    border-color: lightseagreen;
 }
 
 .row2{
@@ -104,6 +115,9 @@ justify-content: center;
     max-width: 20vw;
     margin:1vw;
     height: auto;
+    border-style: solid;
+    border-radius: .5vw;
+    border-color: lightseagreen;
 
 }
 
@@ -111,6 +125,10 @@ justify-content: center;
     display:flex;
     justify-content: space-evenly;
     list-style-type:none;
+}
+
+.contact-items:hover{
+    background-color: lightseagreen;
 }
 
 footer{
