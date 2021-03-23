@@ -17,7 +17,7 @@ header h1{
     float:left;
     margin-left: 1vw;
     background-size: 2vh, 2vw;
-    background-color: rgb(89, 40, 134);
+    background-color: lightseagreen;
 }
 
 .navbar{
@@ -53,6 +53,21 @@ header h1{
 }
 
 .banner{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bottom-right{
+    position: absolute;
+    bottom: 1vw;
+    right: 2vw;
+    background-color: lightseagreen;
+    font-size:3vw;
+}
+
+
+.bannerphoto{
     max-width: 100%;
     height: auto;
 }
