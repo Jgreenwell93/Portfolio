@@ -78,6 +78,8 @@ header h1{
     border-style: solid;
     border-radius: .5vw;
     border-color: lightseagreen;
+    max-width: 20vw;
+    height:auto;
 }
 
 .workbox{
@@ -101,6 +103,14 @@ justify-content: center;
     border-style: solid;
     border-radius: .5vw;
     border-color: lightseagreen;
+    filter:saturate(40%);
+    transition-duration: .25s;
+    
+}
+
+.row1photo:hover{
+    filter:none;
+    transition-duration: .25s;
 }
 
 .row2{
@@ -118,7 +128,13 @@ justify-content: center;
     border-style: solid;
     border-radius: .5vw;
     border-color: lightseagreen;
+    filter:saturate(40%);
+    transition-duration: .25s;
+}
 
+.row2photos:hover{
+    filter:none;
+    transition-duration: .25s;
 }
 
 .contactlist{
