@@ -71,13 +71,13 @@ header h1{
     background-color: lightseagreen;
     font-size:3vw;
 }
-
-/* about me text positioning? */
-.about{
-    float:right;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+/* positioning of rows */
+.row{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    /* margin: 16px; */
+    height: 100%;
 }
 
 /* section labels and sizing? */
@@ -88,18 +88,47 @@ header h1{
     border-right: lightseagreen 3px solid;
     padding-right: 1%;
     height:100%;
-    width:25%;
    
 }
+
+/* right column positioning */
+.right{
+    display:flex;
+    flex-direction: row;
+    height: 100%;
+    width: 75%;
+}
+/* sizing of about me row */
+.about-section{
+    width:100%;
+    height:50vh;
+   }
+   
+
+/* about me text positioning? */
+.about{
+    float:right;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
 
 /* sizing of self photo */
 .self-photo{
     border-style: solid;
     border-radius: .5vw;
     border-color: lightseagreen;
-    max-width: 20vw;
     height:auto;
+    margin:2%;
+    height: 80%;
 }
+
+/* about me body paragraph positioning */
+.about-body{
+    margin-top: 3vh;
+}
+
 
 /* block of projects ive "worked on" positioning */
 .workbox{
@@ -188,30 +217,10 @@ footer{
 
 
 
-.main-section{
- width:100%;
- height:200px;
-}
-
-.row{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    /* margin: 16px; */
-    height: 100%;
-}
 
 
-.right{
-    display:flex;
-    flex-direction: row;
-    height: 100%;
-    width: 75%;
-}
 
 
-.self-photo-about{
-height: 50%;
-}
+
 
 
