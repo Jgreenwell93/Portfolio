@@ -19,9 +19,10 @@ header{
 
 /* header positioning and background color */
 header h1{
+    font-size: 7vh;
     float:left;
-    margin-left: 1vw;
-    background-size: 2vh, 2vw;
+    margin-top: 1.5vh;
+    padding-left: 3vw;
     background-color: lightseagreen;
 }
 
@@ -83,8 +84,12 @@ header h1{
 .labels{
     font-size: 3vw;
     display:flex;
-    flex:wrap;
+    justify-content: flex-start;
     border-right: lightseagreen 3px solid;
+    padding-right: 1%;
+    height:100%;
+    width:25%;
+   
 }
 
 /* sizing of self photo */
@@ -192,21 +197,16 @@ footer{
     display:flex;
     flex-direction: row;
     justify-content: center;
-    margin: 16px;
+    /* margin: 16px; */
     height: 100%;
 }
 
-.left{
-    height:100%;
-    width:25%;
-   
-}
+
 .right{
     display:flex;
     flex-direction: row;
     height: 100%;
     width: 75%;
-    border-left: 20px solid black;
 }
 
 
