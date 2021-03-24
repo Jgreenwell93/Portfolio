@@ -3,6 +3,15 @@
     --accentblue:lightseagreen;
 }
 
+/* media adjustments */
+@media screen and (max-width: 992px) {
+    *{
+        display:flex;
+        flex-wrap: wrap;
+    }
+  }
+
+
 /* globally adjust font color, style, margin, and weight */
 *{
     color:ghostwhite;
@@ -24,7 +33,7 @@ header{
 
 /* header positioning and background color */
 header h1{
-    font-size: 7vh;
+    font-size: 3vw;
     float:left;
     margin-top: 1.5vh;
     padding-left: 3vw;
@@ -42,6 +51,7 @@ header h1{
 .navitem{
     margin:2vw;
     text-decoration: underline;
+    font-size: 1.5vw;
 }
 
 /* hover effect for navigation bar items */
@@ -127,16 +137,16 @@ header h1{
     border-style: solid;
     border-radius: .5vw;
     border-color: var(--accentblue);
-    height:auto;
     margin:2%;
-    margin-left: 12%;
-    height: 60%;
+    margin-left: 10vw;
+    height: 18vw;
 }
 
 /* about me body paragraph positioning */
 .about-body{
     margin-top: 3vh;
     margin-right: 3vw;
+    font-size: 1.25vw;
 }
 
 
@@ -211,6 +221,10 @@ header h1{
 
 .photo-caption-h{
     font-size: 2vw;
+}
+
+.photo-caption-p{
+    font-size:1vw;
 }
 
 
