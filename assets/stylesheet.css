@@ -80,8 +80,7 @@ header h1{
 .row{
     display:flex;
     flex-direction: row;
-    justify-content: center;
-    /* margin: 16px; */
+    /* justify-content: center; */
     height: 100%;
 }
 
@@ -96,18 +95,20 @@ header h1{
    
 }
 
-/* right column positioning */
+
+/* sizing of about me row */
+.about-section{
+    width:100%;
+    height:50vh;
+   }
+
+   /* right column about me positioning */
 .right{
     display:flex;
     flex-direction: row;
     height: 100%;
     width: 75%;
 }
-/* sizing of about me row */
-.about-section{
-    width:100%;
-    height:50vh;
-   }
    
 
 /* about me text positioning? */
@@ -137,64 +138,41 @@ header h1{
 
 /* block of projects ive "worked on" positioning */
 .workbox{
-    display:flex;
-    display:block;
-    justify-content: center;
-    max-width: 60%;
+    float:right;
+   display:block;
+
 }
 
 /* top project */
-.row1{
+.work1{
 display:flex;
-justify-content: center;
-
+justify-content: flex-end;
+width:60%;
 }
 
-/* top project photo effects and sizing */
-.row1photo{
-    max-width: 64vw;
-    height:auto;
+.work2{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    width: 20%;
+}
+
+/* work photo effects */
+.workphoto{
     border-style: solid;
     border-radius: .5vw;
     border-color: var(--accentblue);
     filter:saturate(40%);
     transition-duration: .25s;
+    margin:0;
+    width: 20%;
 }
 
-/* top project photo hover effect */
-.row1photo:hover{
+/* work photos photo hover effect */
+.workphoto:hover{
     filter:none;
     transition-duration: .25s;
 }
 
-/* bottom row of projects */
-.row2{
-    list-style-type: none;
-    display:flex;
-    justify-content: center;
-}
-
-/* bottom row of projects photo effects and sizing */
-.row2photos{
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 20vw;
-    margin:1vw;
-    height: auto;
-    border-style: solid;
-    border-radius: .5vw;
-    border-color: var(--accentblue);
-    filter:saturate(40%);
-    transition-duration: .25s;
-}
-
-/* bottom row of projects hover effect */
-.row2photos:hover{
-    filter:none;
-    transition-duration: .25s;
-}
 
 /* forms of contact positioning */
 .contactlist{
