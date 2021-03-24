@@ -1,8 +1,9 @@
-/* globally adjust font color, style, and weight */
+/* globally adjust font color, style, margin, and weight */
 *{
     color:ghostwhite;
     font-family: Verdana, Arial, sans-serif;
     font-weight: lighter;
+    margin: 0;
     
 }
 
@@ -24,7 +25,7 @@ header h1{
     background-color: lightseagreen;
 }
 
-/* navigation bad position */
+/* navigation bar position */
 .navbar{
     display:flex;
     justify-content: flex-end;
@@ -40,11 +41,6 @@ header h1{
 /* hover effect for navigation bar items */
 .navitem:hover{
     background-color: lightseagreen;
-}
-
-/* about me display? */
-.aboutme1{
-    display:inline;
 }
 
 /* background color of main */
@@ -79,6 +75,7 @@ header h1{
 .about{
     float:right;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
 }
 
@@ -179,3 +176,42 @@ footer{
     font-size:xx-small;
     background-color: rgb(36, 25, 109);
 }
+
+
+
+
+
+
+
+.main-section{
+ width:100%;
+ height:200px;
+}
+
+.row{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 16px;
+    height: 100%;
+}
+
+.left{
+    height:100%;
+    width:25%;
+   
+}
+.right{
+    display:flex;
+    flex-direction: row;
+    height: 100%;
+    width: 75%;
+    border-left: 20px solid black;
+}
+
+
+.self-photo-about{
+height: 50%;
+}
+
+
