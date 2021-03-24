@@ -196,6 +196,23 @@ header h1{
 
 }
 
+.workbox-item{
+    position: relative;
+}
+/* positioning of captions on work photos */
+.bottom-left{
+    position: absolute;
+    bottom: 1vh;
+    left: .5vw;
+    padding-left: 20px;
+    padding-right: 20px; 
+    background-color: var(--accentblue);
+}
+
+.photo-caption-h{
+    font-size: 2vw;
+}
+
 
 
 /* work photos photo hover effect */
