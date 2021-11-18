@@ -12,6 +12,11 @@
     }
   }
 
+  /* setting background image as background */
+  body {
+    background-image: url("/Images/Background.jpg");
+  }
+
 
 /* globally adjust font color, style, margin, and weight */
 *{
@@ -20,11 +25,6 @@
     font-weight: lighter;
     margin: 0;
     
-}
-
-/* adds in scroll behavior for click event scrolls in html */
-html{
-    scroll-behavior: smooth;
 }
 
 /* header color */
@@ -58,11 +58,6 @@ header h1{
 /* hover effect for navigation bar items */
 .navitem:hover{
     background-color: var(--accentblue);
-}
-
-/* background color of main */
-.main{
-    background-color: rgb(116, 88, 143);
 }
 
 /* banner position and text font color */
@@ -257,14 +252,6 @@ header h1{
     background-color: var(--accentblue);
 }
 
-/* footer positioning and decoration */
-footer{
-    display:flex;
-    justify-content: center;
-    font-size:xx-small;
-    text-shadow: 1px 1px var(--accentblue);
-    background-color: var(--darkback);
-}
 
 
 
