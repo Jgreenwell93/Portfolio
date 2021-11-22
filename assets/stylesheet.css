@@ -126,6 +126,7 @@ header h1{
     margin:2%;
     margin-left: 10vw;
     height: 18vw;
+    box-shadow: 0 0 10px var(--accentblue);
 }
 
 /* about me body paragraph positioning */
