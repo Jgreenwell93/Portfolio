@@ -113,12 +113,10 @@ header h1{
     flex-direction: row;
     height: 100%;
     width: 85%;
-    border-left: var(--accentblue) 3px solid;
     padding-left: 1%;
     
 }
    
-
 
 /* sizing of self photo */
 .self-photo{
