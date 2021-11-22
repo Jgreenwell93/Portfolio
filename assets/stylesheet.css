@@ -1,5 +1,5 @@
 :root{
-    --darkback:rgb(27, 9, 104);
+    --darkback:rgb(14, 1, 63);
     --accentblue:lightseagreen;
 }
 
@@ -61,27 +61,27 @@ header h1{
 }
 
 /* banner position and text font color */
-.banner{
+/* .banner{
     position: relative;
     text-align: center;
     color: white;
-}
+} */
 
 /* banner sizing */
-.bannerphoto{
+/* .bannerphoto{
     height: 12em;
     width: 100%;
     object-fit: cover;
-}
+} */
 
 /* text on banner sizing, positioning, and font decorations */
-.bottom-right{
+/* .bottom-right{
     position: absolute;
     bottom: 1vw;
     right: 2vw;
     background-color: var(--accentblue);
     font-size:3vw;
-}
+} */
 /* positioning of rows */
 .row{
     display:flex;
