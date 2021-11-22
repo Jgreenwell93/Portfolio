@@ -131,7 +131,7 @@ header h1{
 /* sizing of self photo */
 .self-photo{
     border-style: solid;
-    border-radius: .5vw;
+    border-radius: 10vw;
     border-color: var(--accentblue);
     margin:2%;
     margin-left: 10vw;
