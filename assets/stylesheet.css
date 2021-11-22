@@ -30,6 +30,7 @@
 /* header color */
 header{
     background-color: var(--darkback);
+    opacity: 0.8;
 }
 
 /* header positioning and background color */
