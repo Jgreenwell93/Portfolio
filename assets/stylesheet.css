@@ -1,5 +1,5 @@
 :root{
-    --darkback:rgb(27, 9, 104);
+    --darkback:rgb(34, 32, 39);
     --accentblue:lightseagreen;
 }
 
@@ -30,6 +30,7 @@
 /* header color */
 header{
     background-color: var(--darkback);
+    opacity: 0.8;
 }
 
 /* header positioning and background color */
@@ -60,28 +61,33 @@ header h1{
     background-color: var(--accentblue);
 }
 
+/* Active tab will be colored */
+/* .active{
+    color: var(--accentblue);
+} */
+
 /* banner position and text font color */
-.banner{
+/* .banner{
     position: relative;
     text-align: center;
     color: white;
-}
+} */
 
 /* banner sizing */
-.bannerphoto{
+/* .bannerphoto{
     height: 12em;
     width: 100%;
     object-fit: cover;
-}
+} */
 
 /* text on banner sizing, positioning, and font decorations */
-.bottom-right{
+/* .bottom-right{
     position: absolute;
     bottom: 1vw;
     right: 2vw;
     background-color: var(--accentblue);
     font-size:3vw;
-}
+} */
 /* positioning of rows */
 .row{
     display:flex;
@@ -131,7 +137,7 @@ header h1{
 /* sizing of self photo */
 .self-photo{
     border-style: solid;
-    border-radius: .5vw;
+    border-radius: 10vw;
     border-color: var(--accentblue);
     margin:2%;
     margin-left: 10vw;
