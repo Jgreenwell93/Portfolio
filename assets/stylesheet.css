@@ -61,6 +61,11 @@ header h1{
     background-color: var(--accentblue);
 }
 
+/* Active tab will be colored */
+/* .active{
+    color: var(--accentblue);
+} */
+
 /* banner position and text font color */
 /* .banner{
     position: relative;
