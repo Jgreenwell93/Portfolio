@@ -87,14 +87,7 @@ header h1{
     right: 2vw;
     background-color: var(--accentblue);
     font-size:3vw;
-} */
-/* positioning of rows */
-.row{
-    display:flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    height: 100%;
-}
+} 
 
 /* section labels and sizing? */
 .labels{
@@ -113,26 +106,16 @@ header h1{
     height:50vh;
    }
 
-   /* right column about me positioning */
-.right{
+   /*about me positioning */
+.about-content{
     display:flex;
     justify-content:center;
     flex-direction: row;
     height: 100%;
     width: 85%;
-    border-left: var(--accentblue) 3px solid;
-    padding-left: 1%;
+    
 }
    
-
-/* about me text positioning? */
-.about{
-    float:right;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
 
 /* sizing of self photo */
 .self-photo{
@@ -142,6 +125,7 @@ header h1{
     margin:2%;
     margin-left: 10vw;
     height: 18vw;
+    box-shadow: 0 0 10px var(--accentblue);
 }
 
 /* about me body paragraph positioning */
@@ -257,17 +241,6 @@ header h1{
 .contact-items:hover{
     background-color: var(--accentblue);
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
