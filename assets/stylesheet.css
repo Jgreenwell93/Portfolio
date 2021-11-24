@@ -106,14 +106,13 @@ header h1{
     height:50vh;
    }
 
-   /* right column about me positioning */
+   /*about me positioning */
 .about-content{
     display:flex;
     justify-content:center;
     flex-direction: row;
     height: 100%;
     width: 85%;
-    padding-left: 1%;
     
 }
    
