@@ -110,14 +110,12 @@ header h1{
     align-items:center;
     flex-direction: column;
     height: 100%;
-    width: 85%;
    }
 
    /*about me positioning */
 .about-content{
-    display:flex;
     height: 100%;
-    width:75%;
+    width:65%;
     margin-top: 4vh;
 }
    
@@ -130,12 +128,12 @@ header h1{
     height: 18vw;
     box-shadow: 0 0 10px var(--accentblue);
     margin-top: 6vh;
+    margin-right: 3vw;
 }
 
 /* about me body paragraph */
 .about-body{
     margin-top: 3vh;
-    margin-right: 3vw;
     font-size: 1.25vw;
 }
 
