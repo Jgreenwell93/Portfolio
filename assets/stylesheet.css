@@ -70,28 +70,6 @@ header h1{
     color: var(--accentblue);
 } */
 
-/* banner position and text font color */
-/* .banner{
-    position: relative;
-    text-align: center;
-    color: white;
-} */
-
-/* banner sizing */
-/* .bannerphoto{
-    height: 12em;
-    width: 100%;
-    object-fit: cover;
-} */
-
-/* text on banner sizing, positioning, and font decorations */
-/* .bottom-right{
-    position: absolute;
-    bottom: 1vw;
-    right: 2vw;
-    background-color: var(--accentblue);
-    font-size:3vw;
-} 
 
 /* section labels and sizing? */
 .labels{
