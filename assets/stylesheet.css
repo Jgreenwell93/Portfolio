@@ -3,14 +3,6 @@
     --accentblue:lightseagreen;
 }
 
-/* media adjustments */
-/* @media screen and (max-width: 992px) {
-    *{
-        display:flex;
-        flex-direction: column;
-        
-    }
-  } */
 
   /* setting background image as background */
   html { 
