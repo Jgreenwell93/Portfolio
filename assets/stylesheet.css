@@ -13,8 +13,12 @@
   }
 
   /* setting background image as background */
-  body {
-    background-image: url("/Images/Background.jpg");
+  html { 
+    background: url("/Images/Background.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 
 
