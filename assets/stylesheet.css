@@ -1,6 +1,7 @@
 :root{
     --darkback:rgb(34, 32, 39);
     --accentblue:lightseagreen;
+    --whitetext:ghostwhite;
 }
 
 
@@ -16,7 +17,7 @@
 
 /* globally adjust font color, style, margin, and weight */
 *{
-    color:ghostwhite;
+    color:var(--whitetext);
     font-family: Verdana, Arial, sans-serif;
     font-weight: lighter;
     margin: 0;
@@ -224,12 +225,16 @@ header h1{
     line-height: 1.5;
     color: #212529;
     text-align: left;
-    background-color: #fff;
+    background-color: var(--darkback);
     padding: 30px;
     padding-bottom: 10px;
     border: 1px solid #ced4da;
     border-radius: 0.25rem;
-    max-width: 100%;
+    max-width: 50%;
+}
+
+.fcf-h3{
+    color: var(--whitetext);
 }
 
 .fcf-form-group {
@@ -255,8 +260,8 @@ header h1{
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #495057;
-    background-color: #fff;
+    color: var(--whitetext);
+    background-color: var(--darkback);
     background-clip: padding-box;
     border: 1px solid #ced4da;
     outline: none;
@@ -280,16 +285,17 @@ textarea.fcf-form-control {
 label.fcf-label {
     display: inline-block;
     margin-bottom: 0.5rem;
+    color: var(--whitetext);
 }
 
 .fcf-credit {
     padding-top: 10px;
     font-size: 0.9rem;
-    color: #545b62;
+    color: var(--whitetext);
 }
 
 .fcf-credit a {
-    color: #545b62;
+    color: var(--whitetext);
     text-decoration: underline;
 }
 
@@ -301,7 +307,7 @@ label.fcf-label {
 .fcf-btn {
     display: inline-block;
     font-weight: 400;
-    color: #212529;
+    color: var(--whitetext);
     text-align: center;
     vertical-align: middle;
     cursor: pointer;
