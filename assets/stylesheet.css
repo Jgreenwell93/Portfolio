@@ -113,6 +113,9 @@ header h1{
 }
 
 
+/* Projects page */
+
+
 /* grid of projects ive "worked on" positioning and dimensions */
 .workgrid{
  display:grid;
@@ -197,6 +200,10 @@ header h1{
     filter:none;
     transition-duration: .25s;
 }
+
+
+
+/* Contact page */
 
 
 
