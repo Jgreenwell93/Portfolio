@@ -68,17 +68,6 @@ header h1{
 }
 
 
-/* section labels and sizing? */
-.labels{
-    font-size: 2vw;
-    display:flex;
-    justify-content: flex-start;
-    padding-right: .5%;
-    height:100%;
-   
-}
-
-
 /* positioning of about me section */
 .about-section{
     display:flex;
