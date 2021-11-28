@@ -210,11 +210,5 @@ header h1{
     margin-right: 8vw;
 }
 
-/* forms of contact hover effect */
-.contact-items:hover{
-    background-color: var(--accentblue);
-}
-
-
 
 
