@@ -299,11 +299,13 @@ label.fcf-label {
     padding-top: 10px;
     font-size: 0.9rem;
     color: var(--whitetext);
+    display: none;
 }
 
 .fcf-credit a {
     color: var(--whitetext);
     text-decoration: underline;
+    display: none;
 }
 
 .fcf-credit a:hover {
