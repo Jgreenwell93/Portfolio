@@ -201,17 +201,24 @@ header h1{
 .contactlist{
     display:flex;
     list-style-type:none;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: row;
+    padding: 0%;
 }
 
 .contact-items{
     margin-top: 4vh;
-    margin-bottom: 3vh;;
-    margin-right: 8vw;
+    margin-right: 4vw;
+    margin-left: 4vw;
 }
 
 /* contact form stylings */
+
+#contact-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+}
 
 #fcf-form {
     display:block;
@@ -292,11 +299,13 @@ label.fcf-label {
     padding-top: 10px;
     font-size: 0.9rem;
     color: var(--whitetext);
+    display: none;
 }
 
 .fcf-credit a {
     color: var(--whitetext);
     text-decoration: underline;
+    display: none;
 }
 
 .fcf-credit a:hover {
