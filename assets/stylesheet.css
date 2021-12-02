@@ -201,14 +201,14 @@ header h1{
 .contactlist{
     display:flex;
     list-style-type:none;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-direction: row;
 }
 
 .contact-items{
     margin-top: 4vh;
-    margin-bottom: 3vh;;
-    margin-right: 8vw;
+    margin-right: 4vw;
+    margin-left: 4vw;
 }
 
 /* contact form stylings */
