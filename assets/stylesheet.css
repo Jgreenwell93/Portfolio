@@ -203,6 +203,7 @@ header h1{
     list-style-type:none;
     justify-content: center;
     flex-direction: row;
+    padding: 0%;
 }
 
 .contact-items{
