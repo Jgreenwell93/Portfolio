@@ -24,6 +24,9 @@
     
 }
 
+
+
+
 /* header color */
 header{
     background-color: var(--darkback);
@@ -38,6 +41,9 @@ header h1{
     padding-left: 3vw;
     background-color: var(--accentblue);
 }
+
+
+
 
 /* navigation bar position */
 .navbar{
@@ -67,6 +73,11 @@ header h1{
 .active a:hover{
     color:ghostwhite;
 }
+
+
+
+
+/* Landing page specifics */
 
 
 /* positioning of about me section */
@@ -103,7 +114,10 @@ header h1{
 }
 
 
-/* Projects page */
+
+
+
+/* Projects page Specifics */
 
 
 /* grid of projects ive "worked on" positioning and dimensions */
@@ -183,8 +197,6 @@ header h1{
     font-size:1vw;
 }
 
-
-
 /* work photos photo hover effect */
 .workphotos:hover{
     filter:none;
@@ -193,7 +205,11 @@ header h1{
 
 
 
-/* Contact page */
+
+
+
+
+/* Contact page Specifics */
 
 
 
