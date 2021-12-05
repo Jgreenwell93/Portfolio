@@ -14,6 +14,36 @@
     background-size: cover;
   }
 
+  /* Scrollbar stylings */
+
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px var(--darkback); 
+    border-radius: 15px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--accentblue); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(4, 99, 94); 
+  }
+
+  /* the track (progress bar) NOT covered by the handle */
+  ::-webkit-scrollbar-track-piece{
+      background: var(--darkback);
+  }
+
+
 
 /* globally adjust font color, style, margin, and weight */
 *{
@@ -40,6 +70,7 @@ header h1{
     margin-top: 1.5vh;
     padding-left: 3vw;
     background-color: var(--accentblue);
+    border-radius: .2vw;
 }
 
 
@@ -57,6 +88,7 @@ header h1{
     margin:2vw;
     text-decoration: underline;
     font-size: 1.5vw;
+    border-radius: .25vw;
 }
 
 /* hover effect for navigation bar items */
@@ -119,54 +151,31 @@ header h1{
 
 /* Projects page Specifics */
 
-
-/* grid of projects ive "worked on" positioning and dimensions */
-.workgrid{
- display:grid;
- grid-template-columns: repeat(6, 1fr);
- grid-template-rows: repeat(5, 8vw);
- grid-gap: 20px;
- width:75%;
-}
-
-.item1{
-    grid-column-start: 1;
-    grid-column-end: 7;
-    grid-row-start: 1;
-    grid-row-end: 4;
-}
-
-.item2{
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 4;
-    grid-row-end: 5;
-}
-.item3{
-    grid-column-start: 4;
-    grid-column-end: 7;
-    grid-row-start: 4;
-    grid-row-end: 5;
-}
-.item4{
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 5;
-    grid-row-end: 6;
-}
-
-.item5{
-    grid-column-start: 4;
-    grid-column-end: 7;
-    grid-row-start: 5;
-    grid-row-end: 6;
+.projects-area{
+    margin: auto;
+    width: 65%;
 }
 
 
-/* work photo effects */
-.workphotos{
+/* rows of projects ive "worked on" positioning and dimensions */
+.projects{
+ display:flex;
+ flex-direction: column;
+ margin-top: 3vw;
+ gap: 3vw;
+}
+
+/* specific Project item properties */
+.project-box-items{
+    position: relative;
+    height: 18vw;
+}
+
+
+/* project photo effects */
+.project-photos{
     border-style: solid;
-    border-radius: .5vw;
+    border-radius: 1vw;
     border-color: var(--accentblue);
     filter:saturate(40%);
     transition-duration: .25s;
@@ -176,10 +185,7 @@ header h1{
 
 }
 
-.workbox-item{
-    position: relative;
-}
-/* positioning of captions on work photos */
+/* positioning of captions on project photos */
 .bottom-left{
     position: absolute;
     bottom: 1vh;
@@ -187,8 +193,10 @@ header h1{
     padding-left: 20px;
     padding-right: 20px; 
     background-color: var(--accentblue);
+    border-radius: .5vw;
 }
 
+/* project photo caption sizing */
 .photo-caption-h{
     font-size: 2vw;
 }
@@ -197,8 +205,8 @@ header h1{
     font-size:1vw;
 }
 
-/* work photos photo hover effect */
-.workphotos:hover{
+/* project photos photo hover effect */
+.project-photos:hover{
     filter:none;
     transition-duration: .25s;
 }
