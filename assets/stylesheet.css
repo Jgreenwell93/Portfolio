@@ -151,16 +151,21 @@ header h1{
 
 /* Projects page Specifics */
 
+.projects-area{
+    width: 65%;
+}
+
 
 /* rows of projects ive "worked on" positioning and dimensions */
 .projects{
  display:flex;
  flex-direction: column;
- width:65%;
+ margin-top: 3vw;
+ gap: 3vw;
 }
 
 /* specific Project item properties */
-.project-box-item{
+.project-box-items{
     position: relative;
     height: 18vw;
 }
