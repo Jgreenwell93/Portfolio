@@ -44,7 +44,7 @@
   }
 
 
-  
+
 /* globally adjust font color, style, margin, and weight */
 *{
     color:var(--whitetext);
@@ -70,6 +70,7 @@ header h1{
     margin-top: 1.5vh;
     padding-left: 3vw;
     background-color: var(--accentblue);
+    border-radius: .2vw;
 }
 
 
@@ -87,6 +88,7 @@ header h1{
     margin:2vw;
     text-decoration: underline;
     font-size: 1.5vw;
+    border-radius: .25vw;
 }
 
 /* hover effect for navigation bar items */
@@ -149,26 +151,25 @@ header h1{
 
 /* Projects page Specifics */
 
-/* .projects-area{
 
-} */
-
-
-/* grid of projects ive "worked on" positioning and dimensions */
+/* rows of projects ive "worked on" positioning and dimensions */
 .projects{
- display:grid;
- grid-template-columns: repeat(6, 1fr);
- grid-template-rows: repeat(5, 8vw);
- grid-gap: 20px;
- width:75%;
+ display:flex;
+ flex-direction: column;
+ width:65%;
 }
 
+/* specific Project item properties */
+.project-box-item{
+    position: relative;
+    height: 18vw;
+}
 
 
 /* project photo effects */
 .project-photos{
     border-style: solid;
-    border-radius: .5vw;
+    border-radius: 1vw;
     border-color: var(--accentblue);
     filter:saturate(40%);
     transition-duration: .25s;
@@ -178,9 +179,6 @@ header h1{
 
 }
 
-.project-box-item{
-    position: relative;
-}
 /* positioning of captions on project photos */
 .bottom-left{
     position: absolute;
@@ -189,8 +187,10 @@ header h1{
     padding-left: 20px;
     padding-right: 20px; 
     background-color: var(--accentblue);
+    border-radius: .5vw;
 }
 
+/* project photo caption sizing */
 .photo-caption-h{
     font-size: 2vw;
 }
@@ -200,7 +200,7 @@ header h1{
 }
 
 /* project photos photo hover effect */
-.workphotos:hover{
+.project-photos:hover{
     filter:none;
     transition-duration: .25s;
 }
