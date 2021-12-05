@@ -135,7 +135,7 @@ header h1{
 
 
 
-/* work photo effects */
+/* project photo effects */
 .project-photos{
     border-style: solid;
     border-radius: .5vw;
@@ -148,10 +148,10 @@ header h1{
 
 }
 
-.workbox-item{
+.project-box-item{
     position: relative;
 }
-/* positioning of captions on work photos */
+/* positioning of captions on project photos */
 .bottom-left{
     position: absolute;
     bottom: 1vh;
@@ -169,7 +169,7 @@ header h1{
     font-size:1vw;
 }
 
-/* work photos photo hover effect */
+/* project photos photo hover effect */
 .workphotos:hover{
     filter:none;
     transition-duration: .25s;
