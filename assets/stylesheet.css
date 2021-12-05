@@ -119,9 +119,13 @@ header h1{
 
 /* Projects page Specifics */
 
+/* .projects-area{
+
+} */
+
 
 /* grid of projects ive "worked on" positioning and dimensions */
-.workgrid{
+.projects{
  display:grid;
  grid-template-columns: repeat(6, 1fr);
  grid-template-rows: repeat(5, 8vw);
@@ -129,42 +133,10 @@ header h1{
  width:75%;
 }
 
-.item1{
-    grid-column-start: 1;
-    grid-column-end: 7;
-    grid-row-start: 1;
-    grid-row-end: 4;
-}
-
-.item2{
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 4;
-    grid-row-end: 5;
-}
-.item3{
-    grid-column-start: 4;
-    grid-column-end: 7;
-    grid-row-start: 4;
-    grid-row-end: 5;
-}
-.item4{
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 5;
-    grid-row-end: 6;
-}
-
-.item5{
-    grid-column-start: 4;
-    grid-column-end: 7;
-    grid-row-start: 5;
-    grid-row-end: 6;
-}
 
 
 /* work photo effects */
-.workphotos{
+.project-photos{
     border-style: solid;
     border-radius: .5vw;
     border-color: var(--accentblue);
