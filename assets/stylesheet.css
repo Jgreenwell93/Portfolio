@@ -65,7 +65,7 @@ header{
 
 /* header positioning and background color */
 header h1{
-    font-size: 3vw;
+    font-size: 3.6rem;
     float:left;
     margin-top: 1.5vh;
     padding-left: 3vw;
@@ -87,7 +87,7 @@ header h1{
 .navitem{
     margin:2vw;
     text-decoration: underline;
-    font-size: 1.5vw;
+    font-size: 1.8rem;
     border-radius: .25vw;
 }
 
@@ -142,7 +142,7 @@ header h1{
 /* about me body paragraph */
 .about-body{
     margin-top: 3vh;
-    font-size: 1.25vw;
+    font-size: 1.5rem;
 }
 
 
@@ -198,11 +198,11 @@ header h1{
 
 /* project photo caption sizing */
 .photo-caption-h{
-    font-size: 2vw;
+    font-size: 2.5rem;
 }
 
 .photo-caption-p{
-    font-size:1vw;
+    font-size: 1.25rem;
 }
 
 /* project photos photo hover effect */
