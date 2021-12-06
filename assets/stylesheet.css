@@ -417,3 +417,12 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 
 /* Media Queries */
 
+/* medium */
+@media (max-width: 1007px){
+
+}
+
+/* small */
+@media (max-width: 640px){
+
+}
