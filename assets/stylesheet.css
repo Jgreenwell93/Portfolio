@@ -418,11 +418,21 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 /* Media Queries */
 
 /* medium */
-@media (max-width: 1007px){
+/* @media (max-width: 1007px){
+
+} */
+
+/* medium-small */
+@media (max-width: 800px){
 
 }
 
 /* small */
+@media (max-width: 640px){
+
+}
+
+/* very small */
 @media (max-width: 640px){
 
 }
