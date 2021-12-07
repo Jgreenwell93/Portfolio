@@ -426,15 +426,49 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 @media (max-width: 800px){
     .nav-name{
      font-size: 2.5rem;
-    };
+    }
+
+    .photo-caption-h{
+        font-size: 1.5rem;
+    }
+
+    .photo-caption-p{
+        font-size: .8rem;
+    }
 
 }
+
 
 /* small */
 @media (max-width: 640px){
     .page-header{
         display:flex;
         flex-wrap: wrap;
-    };
+    }
+
+}
+
+/* extra small */
+@media (max-width: 400px){
+    .page-header{
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    .nav-name{
+        font-size: 1.5rem;
+    }
+
+     .navitem{
+         font-size: 1.5rem;
+    }
+
+    .photo-caption-h{
+        font-size: 1rem;
+    }
+
+    .photo-caption-p{
+        font-size: .8rem;
+    }
 
 }
