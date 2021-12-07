@@ -5,7 +5,7 @@ Joseph Greenwell's Portfolio
 https://josephgreenwell.com
 
 This is my personal developer Portfolio.
-I am the sole developer on this as i have taken my lack luster portfolio from bootcamp and have completly gutted it and rebuilt it from scratch from the eyesore that it was to the quality page that it is now. I added in media queries so it is functional across mutliple devices as well as broken it up into multiple pages rather than just one pag with a click navigation effect. I added in a contact form that required me to learn how to work with PHP as a language to setup the server side communication communication with the client side html page.
+I am the sole developer on this as I have taken my lack luster portfolio from bootcamp and have completly gutted it and rebuilt it from scratch from the eyesore that it was to the quality page that it is now. I added in media queries so it is functional across mutliple devices as well as broken it into multiple pages rather than a single page with a click navigation effect. I added in a contact form that required me to learn how to work with PHP as a language to setup the server side communication communication with the client side html page.
 
 
 
