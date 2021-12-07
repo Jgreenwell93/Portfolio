@@ -450,7 +450,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 }
 
 /* extra small */
-@media (max-width: 400px){
+@media (max-width: 420px){
     .page-header{
         display:flex;
         flex-wrap: wrap;
@@ -465,11 +465,14 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     }
 
     .photo-caption-h{
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     .photo-caption-p{
         font-size: .8rem;
+    }
+    body{
+        background: url("/Images/Background.jpg");
     }
 
 }
