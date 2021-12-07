@@ -162,6 +162,7 @@ header{
  display:flex;
  flex-direction: column;
  margin-top: 3vw;
+ margin-bottom: 3vw;
  gap: 3vw;
 }
 
