@@ -97,12 +97,12 @@ header{
 }
 
 /* Active tab will be colored */
-.active a{
+.active {
     color: var(--accentblue);
 }
 
 /* active tab hover effect to turn back to white for visibility */
-.active a:hover{
+.active:hover{
     color:ghostwhite;
 }
 
