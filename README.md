@@ -1,5 +1,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a0dbbca6-a842-461b-aea9-9bfb9e34b478/deploy-status)](https://app.netlify.com/sites/boring-euler-8a8c78/deploys)
 
+CURRENT CONTACT PAGE NOT FUNCTIONING DUE TO NETLIFY BEING UNABLE TO HANDLE SERVER END FUNCTION, CURRENTLY LOOKING INTO ALTERNATIVE HOSTING PLATFORMS. HEROKU IS MAIN CONSIDERATION
+
 # Portfolio
 Joseph Greenwell's Portfolio
 https://josephgreenwell.com
