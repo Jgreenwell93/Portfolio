@@ -1,6 +1,6 @@
 :root{
     --darkback:rgb(34, 32, 39);
-    --accentblue:lightseagreen;
+    --accentblue:rgb(32, 178, 170, .85);
     --whitetext:ghostwhite;
 }
 
@@ -81,14 +81,27 @@ header{
     display:flex;
     justify-content: flex-end;
     list-style-type:none;
+    align-items: center;
 }
 
 /* navigation item decoration */
 .navitem{
     margin:2vw;
-    text-decoration: underline;
+    text-decoration: none;
     font-size: 1.8rem;
     border-radius: .25vw;
+}
+
+/* navigation logo links adjustments */
+.navlogo{
+    margin:.5vw;
+}
+
+/* logo image size adjustments */
+.logoImg{
+    width: 20%;
+    height: auto;
+    opacity: 0.8;
 }
 
 /* hover effect for navigation bar items */
