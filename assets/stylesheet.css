@@ -99,7 +99,7 @@ header{
 
 /* logo image size adjustments */
 .logoImg{
-    max-width: 1000%;
+    width: 2vw;
     height: auto;
     opacity: 0.8;
 }
